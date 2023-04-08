@@ -1,18 +1,22 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class MultimodalUICanvas : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private MultimodalUICanvas _previousUI;
+
+    public void SetPrevious(MultimodalUICanvas prev)
     {
-        
+        _previousUI = prev;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnDisable()
     {
-        
+        if (_previousUI != null)
+        {
+            _previousUI.gameObject.SetActive(true);
+        }
     }
 }
