@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Multiplayer Example/Gameplay.unity
     guid: fd944f928e3cdc84686a7562695b5c1d
+  - enabled: 1
+    path: Assets/Scenes/FirstMenu.unity
+    guid: b680409861705e746a6961ecdfb21df7
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e7b6cf70c80d6634799bd6c8ea8a47ff,
       type: 2}
