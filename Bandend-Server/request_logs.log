@@ -786,3 +786,37 @@
 2023-04-08 16:05:52,732:INFO: * Debugger PIN: 120-027-555
 2023-04-08 16:05:52,823:INFO:request type: stable diffusion generate user image
 2023-04-08 16:11:23,248:INFO:127.0.0.1 - - [08/Apr/2023 16:11:23] "POST /api_call HTTP/1.1" 200 -
+2023-04-08 17:19:14,175:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 17:19:14,177:INFO: * Restarting with stat
+2023-04-08 17:19:27,906:WARNING: * Debugger is active!
+2023-04-08 17:19:27,929:INFO: * Debugger PIN: 120-027-555
+2023-04-08 17:19:28,009:INFO:request type: clip judges results
+2023-04-08 17:19:28,010:INFO:127.0.0.1 - - [08/Apr/2023 17:19:28] "POST /api_call HTTP/1.1" 200 -
+2023-04-08 17:34:22,679:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 17:34:22,680:INFO: * Restarting with stat
+2023-04-08 17:34:35,204:WARNING: * Debugger is active!
+2023-04-08 17:34:35,218:INFO: * Debugger PIN: 120-027-555
+2023-04-08 17:34:39,406:INFO:request type: clip judges results
+2023-04-08 17:34:39,412:INFO:127.0.0.1 - - [08/Apr/2023 17:34:39] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 17:35:33,981:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 17:35:34,895:INFO: * Restarting with stat
+2023-04-08 17:36:06,871:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 17:36:06,872:INFO: * Restarting with stat
+2023-04-08 17:36:19,451:WARNING: * Debugger is active!
+2023-04-08 17:36:19,478:INFO: * Debugger PIN: 120-027-555
+2023-04-08 17:36:19,536:INFO:request type: clip judges results
+2023-04-08 17:36:43,064:INFO:127.0.0.1 - - [08/Apr/2023 17:36:43] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 17:38:08,462:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 17:38:08,997:INFO: * Restarting with stat
+2023-04-08 17:38:31,029:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 17:38:31,030:INFO: * Restarting with stat
+2023-04-08 17:38:43,744:WARNING: * Debugger is active!
+2023-04-08 17:38:43,775:INFO: * Debugger PIN: 120-027-555
+2023-04-08 17:38:43,845:INFO:request type: clip judges results
+2023-04-08 17:38:45,845:INFO:127.0.0.1 - - [08/Apr/2023 17:38:45] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 17:40:32,193:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/clip_api.py', reloading
+2023-04-08 17:40:32,976:INFO: * Restarting with stat
+2023-04-08 17:40:44,618:WARNING: * Debugger is active!
+2023-04-08 17:40:44,633:INFO: * Debugger PIN: 120-027-555
+2023-04-08 17:40:57,429:INFO:request type: clip judges results
+2023-04-08 17:40:58,859:INFO:127.0.0.1 - - [08/Apr/2023 17:40:58] "POST /api_call HTTP/1.1" 200 -

@@ -12,6 +12,7 @@ from io import BytesIO
 import transformers
 from diffusers import StableDiffusionImg2ImgPipeline
 
+from clip_api import image_similarity
 
 # Configure logging
 logging.basicConfig(filename='request_logs.log', level=logging.INFO, format='%(asctime)s:%(levelname)s:%(message)s')
@@ -100,13 +101,29 @@ def api_call():
 
 
 
-    elif request_type == 'case3':
+    elif request_type == 'clip compares similarity between dall-e image and user image':
         logging.info(f"request type: clip judges results")
 
-        # extract two users' images and target comparison target
+        # extract dall-e image
+                    # Access the two images sent by the client
+        dalle_image = request.files.get('dalle_image')
+        
+        # extract user's image
+        user_image = request.files.get('user_image')
 
 
+        # Save the images to the desired folder
+        dalle_image.save(f"/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/temp/{dalle_image.filename}")
+        user_image.save(f"/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/temp/{user_image.filename}")
 
+        # use clip for cosine distance
+        # dalle_image = Image.open(BytesIO(dalle_image)).convert("RGB")
+        # user_image = Image.open(BytesIO(user_image)).convert("RGB")
+
+        similar_score = image_similarity("/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/temp/user1_raw_duck.jpg",
+                         "/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/temp/user2_raw_duck.jpg")
+    
+        print(f"the similarity score is {similar_score}")
 
     else:
         logging.info(f"request type: undefined")
