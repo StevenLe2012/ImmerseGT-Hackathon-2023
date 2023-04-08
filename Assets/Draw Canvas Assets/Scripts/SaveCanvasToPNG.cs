@@ -16,11 +16,9 @@ public class SaveCanvasToPNG : MonoBehaviour
     }
 
     private void SaveTextureToPNG() {
-        debugCube.GetComponent<MeshRenderer>().material.color = Color.red;
         byte[] bytes = toTexture2D(rt).EncodeToPNG();
         string path = Path.Combine(Application.persistentDataPath, "NewSavedScreen.png");
         System.IO.File.WriteAllBytes(path, bytes);
-        debugCube.GetComponent<MeshRenderer>().material.color = Color.green;
     }
 
      Texture2D toTexture2D(RenderTexture rTex)
