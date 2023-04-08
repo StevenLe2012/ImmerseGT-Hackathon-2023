@@ -31,6 +31,10 @@ namespace OpenAI
                 SendImageRequest(prompts[ind]);
             }
         }
+        public void GenerateNewRefImg() {
+            int ind = Random.Range(0, prompts.Length);
+            SendImageRequest(prompts[ind]);
+        }
 
         private async void SendImageRequest(string prompt)
         {
