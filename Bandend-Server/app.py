@@ -7,9 +7,19 @@ from PIL import Image
 import io
 import os
 
+import torch
+from io import BytesIO
+import transformers
+from diffusers import StableDiffusionImg2ImgPipeline
+
 
 # Configure logging
 logging.basicConfig(filename='request_logs.log', level=logging.INFO, format='%(asctime)s:%(levelname)s:%(message)s')
+
+#device = "cuda"
+model_id_or_path = "runwayml/stable-diffusion-v1-5"
+pipe = StableDiffusionImg2ImgPipeline.from_pretrained(model_id_or_path, torch_dtype=torch.float32)
+#pipe = pipe.to(device)
 
 app = Flask(__name__)
 
@@ -44,26 +54,19 @@ def api_call():
     elif request_type == 'stable diffusion generate image given image and text prompt':
         logging.info(f"request type: stable diffusion generate user image")
 
-        # extract prompt
-        text_prompt = request.form.get('text prompt')
 
-        print("text_prompt from stable diffusion")
-        print(text_prompt)
+        url = "https://raw.githubusercontent.com/CompVis/stable-diffusion/main/assets/stable-samples/img2img/sketch-mountains-input.jpg"
 
+        response = requests.get(url)
+        init_image = Image.open(BytesIO(response.content)).convert("RGB")
+        init_image = init_image.resize((768, 512))
 
-        # extract user image
-        if 'image' not in request.files:
-            return 'No image found', 400
+        prompt = "A fantasy landscape, trending on artstation"
 
-        image = request.files['image']
-        if image.filename == '':
-            return 'No selected file', 400
-
-        save_path = os.path.join('uploaded_images', image.filename)
-        image.save(save_path)
+        images = pipe(prompt=prompt, image=init_image, strength=0.75, guidance_scale=7.5).images
+        images[0].save("fantasy_landscape.png")
 
         return 'Image saved successfully', 200
-
 
 
 
