@@ -8,9 +8,24 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Resources/ThirdParty/XRI_Examples/Scenes/XRI_Examples_Main.unity
     guid: ba755f5a181505a4799b21685d4c7576
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 808163266c8f73d489a834b897e8456a
+  - enabled: 1
+    path: Assets/Scenes/Netcode Examples/Bootstrap.unity
+    guid: c3104e4de2136cf4fb908e1e6177baa0
+  - enabled: 1
+    path: Assets/Scenes/Netcode Examples/MainMenu.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Netcode Examples/Gameplay.unity
+    guid: fd944f928e3cdc84686a7562695b5c1d
+  - enabled: 1
+    path: Assets/Scenes/Netcode Examples/CharacterSelect/CharacterSelect.unity
+    guid: b7544d5a30d9eed449267cef7699537b
+  - enabled: 1
+    path: Assets/Scenes/UI_Hands.unity
+    guid: fcaab79ce09d2a24faf3554cc39c25f6
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e7b6cf70c80d6634799bd6c8ea8a47ff,
       type: 2}
