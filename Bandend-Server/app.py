@@ -55,16 +55,46 @@ def api_call():
         logging.info(f"request type: stable diffusion generate user image")
 
 
-        url = "https://raw.githubusercontent.com/CompVis/stable-diffusion/main/assets/stable-samples/img2img/sketch-mountains-input.jpg"
+        # url = "https://raw.githubusercontent.com/CompVis/stable-diffusion/main/assets/stable-samples/img2img/sketch-mountains-input.jpg"
 
-        response = requests.get(url)
-        init_image = Image.open(BytesIO(response.content)).convert("RGB")
+        # response = requests.get(url)
+        # init_image = Image.open(BytesIO(response.content)).convert("RGB")
+        # init_image = init_image.resize((768, 512))
+
+        # prompt = "A fantasy landscape, trending on artstation"
+
+        # images = pipe(prompt=prompt, image=init_image, strength=0.75, guidance_scale=7.5).images
+        # images[0].save("fantasy_landscape.png")
+
+        
+
+        # extract prompt
+        text_prompt = request.form.get('text prompt')
+
+        print("text_prompt from stable diffusion")
+        print(text_prompt)
+
+        # extract user image
+        if 'image' not in request.files:
+            return 'No image found', 400
+
+        image = request.files['image']
+        if image.filename == '':
+            return 'No selected file', 400
+
+        image = image.read()
+
+
+        # Generate image using stable diffusion
+        init_image = Image.open(BytesIO(image)).convert("RGB")
         init_image = init_image.resize((768, 512))
 
-        prompt = "A fantasy landscape, trending on artstation"
+        images = pipe(prompt=text_prompt, image=init_image, strength=0.75, guidance_scale=7.5).images
 
-        images = pipe(prompt=prompt, image=init_image, strength=0.75, guidance_scale=7.5).images
-        images[0].save("fantasy_landscape.png")
+        print(f"Stable diffusion generated {len(images)} images")
+
+        images[0].save("generated.png")
+
 
         return 'Image saved successfully', 200
 

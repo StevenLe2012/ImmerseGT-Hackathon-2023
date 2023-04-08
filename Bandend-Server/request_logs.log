@@ -780,3 +780,9 @@
 2023-04-08 15:23:18,136:WARNING: * Debugger is active!
 2023-04-08 15:23:18,161:INFO: * Debugger PIN: 120-027-555
 2023-04-08 15:23:18,252:INFO:request type: stable diffusion generate user image
+2023-04-08 16:05:39,382:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 16:05:39,385:INFO: * Restarting with stat
+2023-04-08 16:05:52,698:WARNING: * Debugger is active!
+2023-04-08 16:05:52,732:INFO: * Debugger PIN: 120-027-555
+2023-04-08 16:05:52,823:INFO:request type: stable diffusion generate user image
+2023-04-08 16:11:23,248:INFO:127.0.0.1 - - [08/Apr/2023 16:11:23] "POST /api_call HTTP/1.1" 200 -
