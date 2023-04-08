@@ -14,9 +14,8 @@ namespace OpenAI
         //private MeshRenderer m_Renderer;
         public Material m;
 
-        private string[] prompts = {"Picasso", "Van Gogh", "abstract art", "cat", "emoji", 
-    "oil painting", "watercolor", "still life", "puppy", "art", "modern art", "da vinci", "painting of fish riding a bicycle",
-    "drawing of cats swimming", "watermelon, an illustration by Van Gogh"};
+        private string[] prompts = {"Picasso painting of cat", "Van Gogh painting of cat", "landscape painting", "cute cat", 
+    "renaissance painting of cat", "still life painting", "cute puppy", "painting of fish riding a bicycle", "painting of cats swimming"};
     
         void Start()
         {
@@ -27,9 +26,9 @@ namespace OpenAI
         void Update()
         {
             if (Input.GetMouseButtonDown(0)) {
-                
-                string prompt = "watermelon";
-                SendImageRequest(prompt);
+                int ind = Random.Range(0, prompts.Length);
+                //string prompt = "watermelon";
+                SendImageRequest(prompts[ind]);
             }
         }
 
@@ -51,7 +50,7 @@ namespace OpenAI
 
                     while (!request.isDone) await Task.Yield();
 
-                    Texture2D texture = new Texture2D(2, 2);
+                    Texture2D texture = new Texture2D(1, 1);
                     texture.LoadImage(request.downloadHandler.data);
                     //var sprite = Sprite.Create(texture, new Rect(0, 0, 256, 256), Vector2.zero, 1f);
                     //image.sprite = sprite;
