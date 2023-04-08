@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2791461833768027031}
   - component: {fileID: 2791461833768027030}
   m_Layer: 6
-  m_Name: Marker
+  m_Name: Red Color Provider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

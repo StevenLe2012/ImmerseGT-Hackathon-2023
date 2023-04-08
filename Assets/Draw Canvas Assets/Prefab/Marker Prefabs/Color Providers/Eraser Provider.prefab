@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5365107251492553081}
   - component: {fileID: 5365107251492553082}
   m_Layer: 6
-  m_Name: Eraser
+  m_Name: Eraser Provider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
