@@ -1,0 +1,669 @@
+2023-04-08 11:14:55,298:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 11:14:55,299:INFO: * Restarting with stat
+2023-04-08 11:14:55,411:WARNING: * Debugger is active!
+2023-04-08 11:14:55,430:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:15:02,881:INFO:Received request data: {
+  "request type": "dall-e generate challenge image",
+  "request content": "a monkey typing on the keyboard"
+}
+2023-04-08 11:15:02,881:INFO:request type: dall-e generate challenge image
+2023-04-08 11:15:03,253:INFO:127.0.0.1 - - [08/Apr/2023 11:15:03] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 11:18:00,835:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/dalle_api.py', reloading
+2023-04-08 11:18:00,854:INFO: * Restarting with stat
+2023-04-08 11:18:01,041:WARNING: * Debugger is active!
+2023-04-08 11:18:01,047:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:18:05,865:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 11:18:05,865:INFO: * Restarting with stat
+2023-04-08 11:18:05,974:WARNING: * Debugger is active!
+2023-04-08 11:18:05,977:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:18:09,566:INFO:Received request data: {
+  "request type": "dall-e generate challenge image",
+  "request content": "a monkey typing on the keyboard"
+}
+2023-04-08 11:18:09,566:INFO:request type: dall-e generate challenge image
+2023-04-08 11:18:09,842:INFO:127.0.0.1 - - [08/Apr/2023 11:18:09] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 11:18:24,698:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/dalle_api.py', reloading
+2023-04-08 11:18:24,718:INFO: * Restarting with stat
+2023-04-08 11:18:24,837:WARNING: * Debugger is active!
+2023-04-08 11:18:24,841:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:18:29,707:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 11:18:29,707:INFO: * Restarting with stat
+2023-04-08 11:18:29,815:WARNING: * Debugger is active!
+2023-04-08 11:18:29,819:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:18:31,338:INFO:Received request data: {
+  "request type": "dall-e generate challenge image",
+  "request content": "a monkey typing on the keyboard"
+}
+2023-04-08 11:18:31,338:INFO:request type: dall-e generate challenge image
+2023-04-08 11:18:31,541:INFO:127.0.0.1 - - [08/Apr/2023 11:18:31] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 11:18:56,797:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/dalle_api.py', reloading
+2023-04-08 11:18:56,819:INFO: * Restarting with stat
+2023-04-08 11:18:56,934:WARNING: * Debugger is active!
+2023-04-08 11:18:56,949:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:18:59,872:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 11:18:59,872:INFO: * Restarting with stat
+2023-04-08 11:18:59,982:WARNING: * Debugger is active!
+2023-04-08 11:18:59,985:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:19:01,883:INFO:Received request data: {
+  "request type": "dall-e generate challenge image",
+  "request content": "a monkey typing on the keyboard"
+}
+2023-04-08 11:19:01,883:INFO:request type: dall-e generate challenge image
+2023-04-08 11:19:01,976:INFO:127.0.0.1 - - [08/Apr/2023 11:19:01] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 11:19:44,747:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/dalle_api.py', reloading
+2023-04-08 11:19:44,768:INFO: * Restarting with stat
+2023-04-08 11:19:44,886:WARNING: * Debugger is active!
+2023-04-08 11:19:44,893:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:19:53,369:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 11:19:53,370:INFO: * Restarting with stat
+2023-04-08 11:19:53,477:WARNING: * Debugger is active!
+2023-04-08 11:19:53,481:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:19:54,987:INFO:Received request data: {
+  "request type": "dall-e generate challenge image",
+  "request content": "a monkey typing on the keyboard"
+}
+2023-04-08 11:19:54,987:INFO:request type: dall-e generate challenge image
+2023-04-08 11:19:55,324:INFO:127.0.0.1 - - [08/Apr/2023 11:19:55] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 11:22:23,313:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 11:22:23,313:INFO: * Restarting with stat
+2023-04-08 11:22:23,426:WARNING: * Debugger is active!
+2023-04-08 11:22:23,430:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:22:26,691:INFO:Received request data: {
+  "request type": "dall-e generate challenge image",
+  "request content": "a monkey typing on the keyboard"
+}
+2023-04-08 11:22:26,691:INFO:request type: dall-e generate challenge image
+2023-04-08 11:22:27,017:INFO:127.0.0.1 - - [08/Apr/2023 11:22:27] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 11:22:58,713:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/dalle_api.py', reloading
+2023-04-08 11:22:58,732:INFO: * Restarting with stat
+2023-04-08 11:22:58,852:WARNING: * Debugger is active!
+2023-04-08 11:22:58,863:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:23:03,920:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 11:23:03,921:INFO: * Restarting with stat
+2023-04-08 11:23:04,037:WARNING: * Debugger is active!
+2023-04-08 11:23:04,057:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:23:07,031:INFO:Received request data: {
+  "request type": "dall-e generate challenge image",
+  "request content": "a monkey typing on the keyboard"
+}
+2023-04-08 11:23:07,031:INFO:request type: dall-e generate challenge image
+2023-04-08 11:23:13,314:INFO:the image generated by dall-e is at: https://oaidalleapiprodscus.blob.core.windows.net/private/org-KB9K7fxrN80aD4ihp3gK8uH7/user-GSMWRvKVs0IclO1JN2ObkWHe/img-IXBw6MGvsjRNSdpX4ECHSfuc.png?st=2023-04-08T14%3A23%3A13Z&se=2023-04-08T16%3A23%3A13Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-04-08T14%3A59%3A30Z&ske=2023-04-09T14%3A59%3A30Z&sks=b&skv=2021-08-06&sig=GP9ukSa2QDpVqbSa25D%2BNMVoE09AlyBdBZTh/UXB7GU%3D
+2023-04-08 11:23:13,315:INFO:127.0.0.1 - - [08/Apr/2023 11:23:13] "POST /api_call HTTP/1.1" 200 -
+2023-04-08 11:25:31,393:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 11:25:31,394:INFO: * Restarting with stat
+2023-04-08 11:25:31,513:WARNING: * Debugger is active!
+2023-04-08 11:25:31,526:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:25:34,975:INFO:Received request data: {
+  "request type": "dall-e generate challenge image",
+  "request content": "a monkey typing on the keyboard"
+}
+2023-04-08 11:25:34,975:INFO:request type: dall-e generate challenge image
+2023-04-08 11:25:41,517:INFO:the image generated by dall-e is at: https://oaidalleapiprodscus.blob.core.windows.net/private/org-KB9K7fxrN80aD4ihp3gK8uH7/user-GSMWRvKVs0IclO1JN2ObkWHe/img-Wxa3nQqGVLXCWiqPmt8ayjtN.png?st=2023-04-08T14%3A25%3A40Z&se=2023-04-08T16%3A25%3A40Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-04-07T21%3A36%3A48Z&ske=2023-04-08T21%3A36%3A48Z&sks=b&skv=2021-08-06&sig=K7fEarL%2BAKrZ6L41NP96H7H2M1FV2IjbwdTOOe7xWF8%3D
+2023-04-08 11:25:41,518:INFO:127.0.0.1 - - [08/Apr/2023 11:25:41] "POST /api_call HTTP/1.1" 200 -
+2023-04-08 11:27:12,389:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 11:27:12,406:INFO: * Restarting with stat
+2023-04-08 11:27:12,513:WARNING: * Debugger is active!
+2023-04-08 11:27:12,516:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:27:13,592:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 11:27:13,610:INFO: * Restarting with stat
+2023-04-08 11:27:13,725:WARNING: * Debugger is active!
+2023-04-08 11:27:13,729:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:27:19,036:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 11:27:19,037:INFO: * Restarting with stat
+2023-04-08 11:27:19,145:WARNING: * Debugger is active!
+2023-04-08 11:27:19,149:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:27:22,949:INFO:Received request data: {
+  "request type": "dall-e generate challenge image",
+  "request content": "a monkey typing on the keyboard"
+}
+2023-04-08 11:27:22,949:INFO:request type: dall-e generate challenge image
+2023-04-08 11:27:37,911:INFO:the image generated by dall-e is at: https://oaidalleapiprodscus.blob.core.windows.net/private/org-KB9K7fxrN80aD4ihp3gK8uH7/user-GSMWRvKVs0IclO1JN2ObkWHe/img-NFbQ4U8O3PobQL2gWTS5Dcb4.png?st=2023-04-08T14%3A27%3A37Z&se=2023-04-08T16%3A27%3A37Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-04-07T21%3A35%3A53Z&ske=2023-04-08T21%3A35%3A53Z&sks=b&skv=2021-08-06&sig=DBsQEq53UOk3Ie/yPyrWFWwLcxPNTlWOAfzDlVGjTek%3D
+2023-04-08 11:27:37,912:INFO:127.0.0.1 - - [08/Apr/2023 11:27:37] "POST /api_call HTTP/1.1" 200 -
+2023-04-08 11:29:18,390:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 11:29:18,411:INFO: * Restarting with stat
+2023-04-08 11:29:18,531:WARNING: * Debugger is active!
+2023-04-08 11:29:18,535:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:29:27,866:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 11:29:27,884:INFO: * Restarting with stat
+2023-04-08 11:29:28,000:WARNING: * Debugger is active!
+2023-04-08 11:29:28,003:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:29:32,185:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 11:29:32,203:INFO: * Restarting with stat
+2023-04-08 11:29:32,321:WARNING: * Debugger is active!
+2023-04-08 11:29:32,325:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:29:36,519:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 11:29:36,537:INFO: * Restarting with stat
+2023-04-08 11:29:36,651:WARNING: * Debugger is active!
+2023-04-08 11:29:36,656:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:29:37,734:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 11:29:37,755:INFO: * Restarting with stat
+2023-04-08 11:29:37,874:WARNING: * Debugger is active!
+2023-04-08 11:29:37,884:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:29:48,307:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 11:29:48,327:INFO: * Restarting with stat
+2023-04-08 11:29:48,448:WARNING: * Debugger is active!
+2023-04-08 11:29:48,451:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:29:51,605:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 11:29:51,625:INFO: * Restarting with stat
+2023-04-08 11:29:51,740:WARNING: * Debugger is active!
+2023-04-08 11:29:51,743:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:29:52,831:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 11:29:52,854:INFO: * Restarting with stat
+2023-04-08 11:29:52,973:WARNING: * Debugger is active!
+2023-04-08 11:29:52,992:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:29:54,062:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 11:29:54,082:INFO: * Restarting with stat
+2023-04-08 11:29:54,196:WARNING: * Debugger is active!
+2023-04-08 11:29:54,199:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:31:12,669:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 11:31:12,689:INFO: * Restarting with stat
+2023-04-08 11:31:12,841:WARNING: * Debugger is active!
+2023-04-08 11:31:12,845:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:31:47,204:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 11:31:47,225:INFO: * Restarting with stat
+2023-04-08 11:31:47,346:WARNING: * Debugger is active!
+2023-04-08 11:31:47,349:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:32:29,831:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 11:32:29,847:INFO: * Restarting with stat
+2023-04-08 11:32:29,954:WARNING: * Debugger is active!
+2023-04-08 11:32:29,957:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:32:41,325:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 11:32:41,345:INFO: * Restarting with stat
+2023-04-08 11:32:41,464:WARNING: * Debugger is active!
+2023-04-08 11:32:41,468:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:32:43,580:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 11:32:43,598:INFO: * Restarting with stat
+2023-04-08 11:32:43,715:WARNING: * Debugger is active!
+2023-04-08 11:32:43,718:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:32:51,048:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 11:32:51,066:INFO: * Restarting with stat
+2023-04-08 11:32:51,190:WARNING: * Debugger is active!
+2023-04-08 11:32:51,198:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:32:56,411:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 11:32:56,430:INFO: * Restarting with stat
+2023-04-08 11:32:56,557:WARNING: * Debugger is active!
+2023-04-08 11:32:56,567:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:33:00,765:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 11:33:00,781:INFO: * Restarting with stat
+2023-04-08 11:33:00,901:WARNING: * Debugger is active!
+2023-04-08 11:33:00,905:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:33:03,029:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 11:33:03,048:INFO: * Restarting with stat
+2023-04-08 11:33:03,158:WARNING: * Debugger is active!
+2023-04-08 11:33:03,161:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:33:16,652:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 11:33:16,671:INFO: * Restarting with stat
+2023-04-08 11:33:16,784:WARNING: * Debugger is active!
+2023-04-08 11:33:16,798:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:33:18,913:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 11:33:18,934:INFO: * Restarting with stat
+2023-04-08 11:33:19,049:WARNING: * Debugger is active!
+2023-04-08 11:33:19,069:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:33:23,240:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 11:33:23,256:INFO: * Restarting with stat
+2023-04-08 11:33:23,372:WARNING: * Debugger is active!
+2023-04-08 11:33:23,375:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:33:24,441:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 11:33:24,456:INFO: * Restarting with stat
+2023-04-08 11:33:24,565:WARNING: * Debugger is active!
+2023-04-08 11:33:24,569:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:33:30,824:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 11:33:30,843:INFO: * Restarting with stat
+2023-04-08 11:33:30,965:WARNING: * Debugger is active!
+2023-04-08 11:33:30,968:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:36:07,647:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 11:36:07,674:INFO: * Restarting with stat
+2023-04-08 11:36:07,854:WARNING: * Debugger is active!
+2023-04-08 11:36:07,857:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:37:17,466:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 11:37:17,482:INFO: * Restarting with stat
+2023-04-08 11:37:17,605:WARNING: * Debugger is active!
+2023-04-08 11:37:17,611:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:37:41,526:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 11:37:41,544:INFO: * Restarting with stat
+2023-04-08 11:37:41,676:WARNING: * Debugger is active!
+2023-04-08 11:37:41,696:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:38:01,428:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 11:38:01,453:INFO: * Restarting with stat
+2023-04-08 11:38:01,573:WARNING: * Debugger is active!
+2023-04-08 11:38:01,577:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:38:33,084:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 11:38:33,104:INFO: * Restarting with stat
+2023-04-08 11:38:33,220:WARNING: * Debugger is active!
+2023-04-08 11:38:33,228:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:38:57,189:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 11:38:57,208:INFO: * Restarting with stat
+2023-04-08 11:38:57,324:WARNING: * Debugger is active!
+2023-04-08 11:38:57,342:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:40:18,019:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 11:40:18,035:INFO: * Restarting with stat
+2023-04-08 11:40:18,211:WARNING: * Debugger is active!
+2023-04-08 11:40:18,229:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:40:35,899:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 11:40:35,920:INFO: * Restarting with stat
+2023-04-08 11:40:36,047:WARNING: * Debugger is active!
+2023-04-08 11:40:36,054:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:40:46,390:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 11:40:46,408:INFO: * Restarting with stat
+2023-04-08 11:40:46,532:WARNING: * Debugger is active!
+2023-04-08 11:40:46,553:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:41:23,664:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 11:41:23,664:INFO: * Restarting with stat
+2023-04-08 11:41:23,782:WARNING: * Debugger is active!
+2023-04-08 11:41:23,785:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:41:26,022:INFO:Received request data: null
+2023-04-08 11:41:26,029:INFO:127.0.0.1 - - [08/Apr/2023 11:41:26] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 11:41:53,322:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 11:41:53,323:INFO: * Restarting with stat
+2023-04-08 11:41:53,443:WARNING: * Debugger is active!
+2023-04-08 11:41:53,460:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:42:19,836:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 11:42:19,837:INFO: * Restarting with stat
+2023-04-08 11:42:19,959:WARNING: * Debugger is active!
+2023-04-08 11:42:19,979:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:43:00,559:INFO:Received request data: null
+2023-04-08 11:43:00,565:INFO:127.0.0.1 - - [08/Apr/2023 11:43:00] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 11:44:28,228:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 11:44:28,248:INFO: * Restarting with stat
+2023-04-08 11:44:28,373:WARNING: * Debugger is active!
+2023-04-08 11:44:28,376:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:44:34,132:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 11:44:34,132:INFO: * Restarting with stat
+2023-04-08 11:44:34,246:WARNING: * Debugger is active!
+2023-04-08 11:44:34,250:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:44:35,670:INFO:Received request data: null
+2023-04-08 11:44:35,676:INFO:127.0.0.1 - - [08/Apr/2023 11:44:35] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 11:45:05,278:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 11:45:05,298:INFO: * Restarting with stat
+2023-04-08 11:45:05,430:WARNING: * Debugger is active!
+2023-04-08 11:45:05,439:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:45:11,072:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 11:45:11,073:INFO: * Restarting with stat
+2023-04-08 11:45:11,196:WARNING: * Debugger is active!
+2023-04-08 11:45:11,205:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:45:31,607:INFO:Received request data: null
+2023-04-08 11:45:31,614:INFO:127.0.0.1 - - [08/Apr/2023 11:45:31] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 11:46:16,963:INFO:Received request data: null
+2023-04-08 11:46:16,968:INFO:127.0.0.1 - - [08/Apr/2023 11:46:16] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 11:49:38,579:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 11:49:38,599:INFO: * Restarting with stat
+2023-04-08 11:49:38,720:WARNING: * Debugger is active!
+2023-04-08 11:49:38,725:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:49:46,022:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 11:49:46,039:INFO: * Restarting with stat
+2023-04-08 11:49:46,162:WARNING: * Debugger is active!
+2023-04-08 11:49:46,179:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:49:47,249:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 11:49:47,270:INFO: * Restarting with stat
+2023-04-08 11:49:47,400:WARNING: * Debugger is active!
+2023-04-08 11:49:47,422:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:50:04,984:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 11:50:05,001:INFO: * Restarting with stat
+2023-04-08 11:50:05,126:WARNING: * Debugger is active!
+2023-04-08 11:50:05,135:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:50:13,678:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 11:50:13,678:INFO: * Restarting with stat
+2023-04-08 11:50:13,801:WARNING: * Debugger is active!
+2023-04-08 11:50:13,820:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:50:16,032:INFO:Received request data: null
+2023-04-08 11:50:16,038:INFO:127.0.0.1 - - [08/Apr/2023 11:50:16] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 11:56:38,089:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 11:56:38,110:INFO: * Restarting with stat
+2023-04-08 11:56:38,229:WARNING: * Debugger is active!
+2023-04-08 11:56:38,233:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:56:52,789:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 11:56:52,810:INFO: * Restarting with stat
+2023-04-08 11:56:52,940:WARNING: * Debugger is active!
+2023-04-08 11:56:52,958:INFO: * Debugger PIN: 120-027-555
+2023-04-08 11:57:03,283:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 11:57:03,304:INFO: * Restarting with stat
+2023-04-08 11:57:03,429:WARNING: * Debugger is active!
+2023-04-08 11:57:03,450:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:06:19,354:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 12:06:19,376:INFO: * Restarting with stat
+2023-04-08 12:06:19,496:WARNING: * Debugger is active!
+2023-04-08 12:06:19,516:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:08:08,523:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 12:08:08,542:INFO: * Restarting with stat
+2023-04-08 12:08:08,662:WARNING: * Debugger is active!
+2023-04-08 12:08:08,686:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:08:16,025:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 12:08:16,045:INFO: * Restarting with stat
+2023-04-08 12:08:16,162:WARNING: * Debugger is active!
+2023-04-08 12:08:16,166:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:08:18,267:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 12:08:18,284:INFO: * Restarting with stat
+2023-04-08 12:08:18,394:WARNING: * Debugger is active!
+2023-04-08 12:08:18,398:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:08:25,306:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 12:08:25,306:INFO: * Restarting with stat
+2023-04-08 12:08:25,428:WARNING: * Debugger is active!
+2023-04-08 12:08:25,436:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:08:28,445:INFO:Received request data: null
+2023-04-08 12:08:28,452:INFO:127.0.0.1 - - [08/Apr/2023 12:08:28] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 12:16:15,030:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:16:15,049:INFO: * Restarting with stat
+2023-04-08 12:16:15,255:WARNING: * Debugger is active!
+2023-04-08 12:16:15,259:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:24:59,367:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 12:24:59,367:INFO: * Restarting with stat
+2023-04-08 12:24:59,491:WARNING: * Debugger is active!
+2023-04-08 12:24:59,512:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:25:00,589:INFO:Received request data: null
+2023-04-08 12:25:00,597:INFO:127.0.0.1 - - [08/Apr/2023 12:25:00] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 12:25:35,141:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 12:25:35,142:INFO: * Restarting with stat
+2023-04-08 12:25:35,259:WARNING: * Debugger is active!
+2023-04-08 12:25:35,263:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:25:50,795:INFO:Received request data: null
+2023-04-08 12:25:50,802:INFO:127.0.0.1 - - [08/Apr/2023 12:25:50] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 12:26:57,134:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 12:26:57,159:INFO: * Restarting with stat
+2023-04-08 12:26:57,277:WARNING: * Debugger is active!
+2023-04-08 12:26:57,281:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:27:01,144:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 12:27:01,145:INFO: * Restarting with stat
+2023-04-08 12:27:01,256:WARNING: * Debugger is active!
+2023-04-08 12:27:01,260:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:27:03,318:INFO:Received request data: null
+2023-04-08 12:27:03,324:INFO:127.0.0.1 - - [08/Apr/2023 12:27:03] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 12:27:15,721:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 12:27:15,741:INFO: * Restarting with stat
+2023-04-08 12:27:15,868:WARNING: * Debugger is active!
+2023-04-08 12:27:15,880:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:27:20,061:INFO:Received request data: null
+2023-04-08 12:27:20,068:INFO:127.0.0.1 - - [08/Apr/2023 12:27:20] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 12:29:06,451:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 12:29:06,472:INFO: * Restarting with stat
+2023-04-08 12:29:06,593:WARNING: * Debugger is active!
+2023-04-08 12:29:06,596:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:29:10,868:INFO:Received request data: null
+2023-04-08 12:29:10,874:INFO:127.0.0.1 - - [08/Apr/2023 12:29:10] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 12:29:56,532:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:29:56,553:INFO: * Restarting with stat
+2023-04-08 12:29:56,680:WARNING: * Debugger is active!
+2023-04-08 12:29:56,684:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:30:11,188:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:30:11,208:INFO: * Restarting with stat
+2023-04-08 12:30:11,327:WARNING: * Debugger is active!
+2023-04-08 12:30:11,347:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:30:16,557:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:30:16,578:INFO: * Restarting with stat
+2023-04-08 12:30:16,705:WARNING: * Debugger is active!
+2023-04-08 12:30:16,722:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:30:21,925:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:30:21,947:INFO: * Restarting with stat
+2023-04-08 12:30:22,070:WARNING: * Debugger is active!
+2023-04-08 12:30:22,073:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:30:46,973:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:30:46,994:INFO: * Restarting with stat
+2023-04-08 12:30:47,116:WARNING: * Debugger is active!
+2023-04-08 12:30:47,129:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:30:55,806:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 12:30:55,806:INFO: * Restarting with stat
+2023-04-08 12:30:55,925:WARNING: * Debugger is active!
+2023-04-08 12:30:55,943:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:31:00,853:INFO:Received request data: null
+2023-04-08 12:31:00,859:INFO:127.0.0.1 - - [08/Apr/2023 12:31:00] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 12:31:21,908:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:31:21,930:INFO: * Restarting with stat
+2023-04-08 12:31:22,085:WARNING: * Debugger is active!
+2023-04-08 12:31:22,094:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:31:23,166:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:31:23,187:INFO: * Restarting with stat
+2023-04-08 12:31:23,311:WARNING: * Debugger is active!
+2023-04-08 12:31:23,332:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:31:33,710:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:31:33,733:INFO: * Restarting with stat
+2023-04-08 12:31:33,861:WARNING: * Debugger is active!
+2023-04-08 12:31:33,865:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:31:40,354:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 12:31:40,354:INFO: * Restarting with stat
+2023-04-08 12:31:40,474:WARNING: * Debugger is active!
+2023-04-08 12:31:40,494:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:31:41,941:INFO:Received request data: null
+2023-04-08 12:31:41,948:INFO:127.0.0.1 - - [08/Apr/2023 12:31:41] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 12:32:09,467:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:32:09,491:INFO: * Restarting with stat
+2023-04-08 12:32:09,615:WARNING: * Debugger is active!
+2023-04-08 12:32:09,619:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:35:23,008:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:35:23,027:INFO: * Restarting with stat
+2023-04-08 12:35:23,161:WARNING: * Debugger is active!
+2023-04-08 12:35:23,181:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:35:26,331:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:35:26,352:INFO: * Restarting with stat
+2023-04-08 12:35:26,475:WARNING: * Debugger is active!
+2023-04-08 12:35:26,487:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:35:27,555:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:35:27,577:INFO: * Restarting with stat
+2023-04-08 12:35:27,713:WARNING: * Debugger is active!
+2023-04-08 12:35:27,730:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:35:35,043:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:35:35,062:INFO: * Restarting with stat
+2023-04-08 12:35:35,179:WARNING: * Debugger is active!
+2023-04-08 12:35:35,182:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:35:37,302:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:35:37,324:INFO: * Restarting with stat
+2023-04-08 12:35:37,447:WARNING: * Debugger is active!
+2023-04-08 12:35:37,450:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:35:44,757:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:35:44,776:INFO: * Restarting with stat
+2023-04-08 12:35:44,895:WARNING: * Debugger is active!
+2023-04-08 12:35:44,908:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:35:51,192:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:35:51,211:INFO: * Restarting with stat
+2023-04-08 12:35:51,333:WARNING: * Debugger is active!
+2023-04-08 12:35:51,353:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:36:04,875:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:36:04,894:INFO: * Restarting with stat
+2023-04-08 12:36:05,011:WARNING: * Debugger is active!
+2023-04-08 12:36:05,015:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:36:07,124:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:36:07,144:INFO: * Restarting with stat
+2023-04-08 12:36:07,266:WARNING: * Debugger is active!
+2023-04-08 12:36:07,270:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:36:11,454:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:36:11,475:INFO: * Restarting with stat
+2023-04-08 12:36:11,598:WARNING: * Debugger is active!
+2023-04-08 12:36:11,602:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:36:41,238:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 12:36:41,239:INFO: * Restarting with stat
+2023-04-08 12:36:41,351:WARNING: * Debugger is active!
+2023-04-08 12:36:41,355:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:36:55,403:INFO:Received request data: null
+2023-04-08 12:36:55,411:INFO:127.0.0.1 - - [08/Apr/2023 12:36:55] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 12:37:56,865:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:37:56,884:INFO: * Restarting with stat
+2023-04-08 12:37:57,016:WARNING: * Debugger is active!
+2023-04-08 12:37:57,019:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:37:58,091:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:37:58,110:INFO: * Restarting with stat
+2023-04-08 12:37:58,236:WARNING: * Debugger is active!
+2023-04-08 12:37:58,255:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:38:03,453:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 12:38:03,454:INFO: * Restarting with stat
+2023-04-08 12:38:03,580:WARNING: * Debugger is active!
+2023-04-08 12:38:03,586:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:38:05,689:INFO:Received request data: null
+2023-04-08 12:38:05,696:INFO:127.0.0.1 - - [08/Apr/2023 12:38:05] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 12:38:43,061:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:38:43,082:INFO: * Restarting with stat
+2023-04-08 12:38:43,209:WARNING: * Debugger is active!
+2023-04-08 12:38:43,213:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:39:01,901:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 12:39:01,901:INFO: * Restarting with stat
+2023-04-08 12:39:02,016:WARNING: * Debugger is active!
+2023-04-08 12:39:02,019:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:39:03,712:INFO:Received request data: null
+2023-04-08 12:39:03,719:INFO:127.0.0.1 - - [08/Apr/2023 12:39:03] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 12:39:45,583:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:39:45,606:INFO: * Restarting with stat
+2023-04-08 12:40:23,542:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 12:40:23,542:INFO: * Restarting with stat
+2023-04-08 12:40:23,655:WARNING: * Debugger is active!
+2023-04-08 12:40:23,659:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:40:32,936:INFO:Received request data: null
+2023-04-08 12:40:32,943:INFO:127.0.0.1 - - [08/Apr/2023 12:40:32] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 12:41:04,103:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:41:04,124:INFO: * Restarting with stat
+2023-04-08 12:41:04,251:WARNING: * Debugger is active!
+2023-04-08 12:41:04,264:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:41:05,337:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:41:05,357:INFO: * Restarting with stat
+2023-04-08 12:41:05,483:WARNING: * Debugger is active!
+2023-04-08 12:41:05,503:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:41:09,475:INFO:Received request data: null
+2023-04-08 12:41:09,482:INFO:127.0.0.1 - - [08/Apr/2023 12:41:09] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 12:41:38,547:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:41:38,569:INFO: * Restarting with stat
+2023-04-08 12:41:38,692:WARNING: * Debugger is active!
+2023-04-08 12:41:38,711:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:41:39,780:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:41:39,798:INFO: * Restarting with stat
+2023-04-08 12:41:39,916:WARNING: * Debugger is active!
+2023-04-08 12:41:39,920:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:41:47,179:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:41:47,199:INFO: * Restarting with stat
+2023-04-08 12:41:47,336:WARNING: * Debugger is active!
+2023-04-08 12:41:47,343:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:41:49,256:INFO:Received request data: null
+2023-04-08 12:41:49,263:INFO:127.0.0.1 - - [08/Apr/2023 12:41:49] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 12:41:56,634:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:41:56,654:INFO: * Restarting with stat
+2023-04-08 12:41:56,778:WARNING: * Debugger is active!
+2023-04-08 12:41:56,782:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:42:05,102:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:42:05,122:INFO: * Restarting with stat
+2023-04-08 12:42:05,250:WARNING: * Debugger is active!
+2023-04-08 12:42:05,254:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:42:07,024:INFO:Received request data: null
+2023-04-08 12:42:07,031:INFO:127.0.0.1 - - [08/Apr/2023 12:42:07] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 12:42:16,645:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:42:16,666:INFO: * Restarting with stat
+2023-04-08 12:42:16,793:WARNING: * Debugger is active!
+2023-04-08 12:42:16,796:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:45:18,437:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:45:18,461:INFO: * Restarting with stat
+2023-04-08 12:47:09,127:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 12:47:09,128:INFO: * Restarting with stat
+2023-04-08 12:47:09,247:WARNING: * Debugger is active!
+2023-04-08 12:47:09,252:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:47:12,223:INFO:request type: stable diffusion generate user image
+2023-04-08 12:47:12,229:INFO:127.0.0.1 - - [08/Apr/2023 12:47:12] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 12:48:03,395:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:48:03,413:INFO: * Restarting with stat
+2023-04-08 12:48:03,528:WARNING: * Debugger is active!
+2023-04-08 12:48:03,532:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:48:07,721:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:48:07,741:INFO: * Restarting with stat
+2023-04-08 12:48:07,866:WARNING: * Debugger is active!
+2023-04-08 12:48:07,870:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:48:08,946:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:48:08,964:INFO: * Restarting with stat
+2023-04-08 12:48:09,074:WARNING: * Debugger is active!
+2023-04-08 12:48:09,077:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:48:19,503:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:48:19,522:INFO: * Restarting with stat
+2023-04-08 12:48:19,649:WARNING: * Debugger is active!
+2023-04-08 12:48:19,653:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:48:20,669:INFO:request type: stable diffusion generate user image
+2023-04-08 12:48:20,677:INFO:127.0.0.1 - - [08/Apr/2023 12:48:20] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 12:48:52,883:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:48:52,903:INFO: * Restarting with stat
+2023-04-08 12:48:53,023:WARNING: * Debugger is active!
+2023-04-08 12:48:53,027:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:48:53,638:INFO:request type: stable diffusion generate user image
+2023-04-08 12:48:53,638:INFO:127.0.0.1 - - [08/Apr/2023 12:48:53] "POST /api_call HTTP/1.1" 200 -
+2023-04-08 12:50:07,677:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 12:50:07,698:INFO: * Restarting with stat
+2023-04-08 12:50:07,895:WARNING: * Debugger is active!
+2023-04-08 12:50:07,898:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:51:03,472:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 12:51:03,472:INFO: * Restarting with stat
+2023-04-08 12:51:03,593:WARNING: * Debugger is active!
+2023-04-08 12:51:03,596:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:51:04,387:INFO:request type: stable diffusion generate user image
+2023-04-08 12:51:04,388:INFO:127.0.0.1 - - [08/Apr/2023 12:51:04] "POST /api_call HTTP/1.1" 200 -
+2023-04-08 12:54:41,901:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/app.py', reloading
+2023-04-08 12:54:41,922:INFO: * Restarting with stat
+2023-04-08 12:54:53,840:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 12:54:53,840:INFO: * Restarting with stat
+2023-04-08 12:54:53,959:WARNING: * Debugger is active!
+2023-04-08 12:54:53,962:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:54:56,806:INFO:request type: stable diffusion generate user image
+2023-04-08 12:54:56,807:INFO:127.0.0.1 - - [08/Apr/2023 12:54:56] "POST /api_call HTTP/1.1" 200 -
+2023-04-08 12:55:06,964:INFO:request type: stable diffusion generate user image
+2023-04-08 12:55:06,973:INFO:127.0.0.1 - - [08/Apr/2023 12:55:06] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 12:55:56,052:INFO:request type: stable diffusion generate user image
+2023-04-08 12:55:56,057:INFO:127.0.0.1 - - [08/Apr/2023 12:55:56] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 12:56:18,186:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 12:56:18,187:INFO: * Restarting with stat
+2023-04-08 12:56:18,304:WARNING: * Debugger is active!
+2023-04-08 12:56:18,308:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:56:20,208:INFO:request type: stable diffusion generate user image
+2023-04-08 12:56:20,209:INFO:127.0.0.1 - - [08/Apr/2023 12:56:20] "POST /api_call HTTP/1.1" 200 -
+2023-04-08 12:56:45,346:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 12:56:45,366:INFO: * Restarting with stat
+2023-04-08 12:56:45,485:WARNING: * Debugger is active!
+2023-04-08 12:56:45,488:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:56:46,564:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 12:56:46,581:INFO: * Restarting with stat
+2023-04-08 12:56:46,693:WARNING: * Debugger is active!
+2023-04-08 12:56:46,697:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:56:51,930:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 12:56:51,949:INFO: * Restarting with stat
+2023-04-08 12:56:52,070:WARNING: * Debugger is active!
+2023-04-08 12:56:52,074:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:56:56,284:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 12:56:56,301:INFO: * Restarting with stat
+2023-04-08 12:56:56,421:WARNING: * Debugger is active!
+2023-04-08 12:56:56,425:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:57:03,705:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 12:57:03,722:INFO: * Restarting with stat
+2023-04-08 12:57:03,847:WARNING: * Debugger is active!
+2023-04-08 12:57:03,854:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:57:46,405:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 12:57:46,406:INFO: * Restarting with stat
+2023-04-08 12:57:46,529:WARNING: * Debugger is active!
+2023-04-08 12:57:46,534:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:57:47,989:INFO:Received request data: {
+  "request type": "dall-e generate challenge image",
+  "request content": "a monkey typing shakespear on the keyboard"
+}
+2023-04-08 12:57:47,989:INFO:request type: dall-e generate challenge image
+2023-04-08 12:57:48,721:INFO:127.0.0.1 - - [08/Apr/2023 12:57:48] "[35m[1mPOST /api_call HTTP/1.1[0m" 500 -
+2023-04-08 12:58:56,585:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 12:58:56,586:INFO: * Restarting with stat
+2023-04-08 12:58:56,705:WARNING: * Debugger is active!
+2023-04-08 12:58:56,709:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:59:00,529:INFO:Received request data: {
+  "request type": "dall-e generate challenge image",
+  "request content": "a monkey typing shakespear on the keyboard"
+}
+2023-04-08 12:59:00,529:INFO:request type: dall-e generate challenge image
+2023-04-08 12:59:06,636:INFO:the image generated by dall-e is at: https://oaidalleapiprodscus.blob.core.windows.net/private/org-KB9K7fxrN80aD4ihp3gK8uH7/user-GSMWRvKVs0IclO1JN2ObkWHe/img-abWUe2qMtrdLtSsFTyQobS79.png?st=2023-04-08T15%3A59%3A06Z&se=2023-04-08T17%3A59%3A06Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-04-08T15%3A21%3A39Z&ske=2023-04-09T15%3A21%3A39Z&sks=b&skv=2021-08-06&sig=grvxhMFYzaY15MXIuCeLZBZaR4H0vV3a4top08iuASI%3D
+2023-04-08 12:59:06,637:INFO:127.0.0.1 - - [08/Apr/2023 12:59:06] "POST /api_call HTTP/1.1" 200 -
+2023-04-08 12:59:22,846:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 12:59:22,864:INFO: * Restarting with stat
+2023-04-08 12:59:23,037:WARNING: * Debugger is active!
+2023-04-08 12:59:23,041:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:59:28,298:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 12:59:28,333:INFO: * Restarting with stat
+2023-04-08 12:59:28,454:WARNING: * Debugger is active!
+2023-04-08 12:59:28,458:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:59:29,546:INFO: * Detected change in '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/send_request.py', reloading
+2023-04-08 12:59:29,565:INFO: * Restarting with stat
+2023-04-08 12:59:29,680:WARNING: * Debugger is active!
+2023-04-08 12:59:29,683:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:59:35,139:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-04-08 12:59:35,140:INFO: * Restarting with stat
+2023-04-08 12:59:35,253:WARNING: * Debugger is active!
+2023-04-08 12:59:35,256:INFO: * Debugger PIN: 120-027-555
+2023-04-08 12:59:37,930:INFO:Received request data: {
+  "request type": "dall-e generate challenge image",
+  "request content": "a monkey writing shakespear on the computer screen"
+}
+2023-04-08 12:59:37,930:INFO:request type: dall-e generate challenge image
+2023-04-08 12:59:43,728:INFO:the image generated by dall-e is at: https://oaidalleapiprodscus.blob.core.windows.net/private/org-KB9K7fxrN80aD4ihp3gK8uH7/user-GSMWRvKVs0IclO1JN2ObkWHe/img-vSjaGFC2ayn3iED5dcDbI84X.png?st=2023-04-08T15%3A59%3A43Z&se=2023-04-08T17%3A59%3A43Z&sp=r&sv=2021-08-06&sr=b&rscd=inline&rsct=image/png&skoid=6aaadede-4fb3-4698-a8f6-684d7786b067&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2023-04-07T21%3A35%3A28Z&ske=2023-04-08T21%3A35%3A28Z&sks=b&skv=2021-08-06&sig=ZKecj9rW8QdF9iO%2BK64%2B1SMyT4hlHaxHXmW1vdGqgao%3D
+2023-04-08 12:59:43,729:INFO:127.0.0.1 - - [08/Apr/2023 12:59:43] "POST /api_call HTTP/1.1" 200 -
