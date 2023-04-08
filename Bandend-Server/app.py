@@ -120,8 +120,8 @@ def api_call():
         # dalle_image = Image.open(BytesIO(dalle_image)).convert("RGB")
         # user_image = Image.open(BytesIO(user_image)).convert("RGB")
 
-        similar_score = image_similarity("/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/temp/user1_raw_duck.jpg",
-                         "/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/temp/user2_raw_duck.jpg")
+        similar_score = image_similarity(f"/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/temp/{dalle_image.filename}",
+                         f"/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/temp/{user_image.filename}")
     
         print(f"the similarity score is {similar_score}")
 
