@@ -67,7 +67,7 @@ public class SpawnMarker : MonoBehaviour
         }
         
         var currentMarkerPosition = _currentMarker.transform.position;
-        if (_currentMarker != null) Destroy(_currentMarker);
+        if (_currentMarker != null) DestroyImmediate(_currentMarker);
         switch (markerType)
         {
             case MarkerType.Black:
