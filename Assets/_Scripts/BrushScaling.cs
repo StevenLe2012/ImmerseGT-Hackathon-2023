@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,6 +12,11 @@ public class BrushScaling : MonoBehaviour
 
     private float scaleSliderValue;
     private GameObject brushProvider;
+
+    public void Start()
+    {
+        brushProvider = GameObject.FindGameObjectWithTag("Marker");    
+    }
 
     public void DetectBrush()
     {
