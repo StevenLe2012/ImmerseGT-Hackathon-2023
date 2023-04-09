@@ -51,11 +51,11 @@ public class Player_Control : MonoBehaviour
             float mouseX = Input.GetAxis("Mouse X") * LookSpeed / 10;
             float mouseY = Input.GetAxis("Mouse Y") * LookSpeed / 10;
 #endif
-            xRotation -= mouseY;
+            // xRotation -= mouseY;
             xRotation = Mathf.Clamp(xRotation, -90, 89.9f);
             Eyes.transform.localRotation = Quaternion.Euler(xRotation, 0, 0);
 
-            yRotation += mouseX;
+            // yRotation += mouseX;
             transform.rotation = Quaternion.Euler(0, yRotation, 0);
             if (Input.GetButtonDown("Jump") && IsGrounded())
             {

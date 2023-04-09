@@ -1,23 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class SaveCanvasToPNG : MonoBehaviour
 {
-    public GameObject debugCube;
     public RenderTexture rt;
-    public InputActionProperty pressed;
 
-    void Start()
-    {
-        pressed.action.performed += ctx => SaveTextureToPNG();
-    }
-
-    private void SaveTextureToPNG() {
+    public void SaveTextureToPNG() {
         byte[] bytes = toTexture2D(rt).EncodeToPNG();
-        string path = Path.Combine(Application.persistentDataPath, "NewSavedScreen.png");
+        string path = Path.Combine(Application.persistentDataPath, "UserSketch.png");
         System.IO.File.WriteAllBytes(path, bytes);
     }
 
