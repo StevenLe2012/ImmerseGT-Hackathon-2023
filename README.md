@@ -1,7 +1,9 @@
 # ImmersGT 2023 Hackathon - The Pen is Mighter than the Sword
+
 ## Project philosophy 🧐
 
 "The Pen is Mighter than the Sword" is a two-player Virtual Reality video game that merges artistic fun, competitive madness, and fitness benefits in an immersive, high-paced environment. The game integrates advanced AI technologies (DALL-E, Stable-Diffusion, Clip) and VR hand-tracking to make the art creation process easier, and it fosters group-bonding by bringing people closer together through shared artistic experiences.
+
 
 ## How it works 💭
 
@@ -21,6 +23,7 @@ Multiplayer was incredibly difficult to iterate upon, as there are limited resou
 
 What's more, as we rely on large generative image models to provides essential features in our app such as sketch completion, we encountered huge challenges deploying pre-trained model on personal servers. For instance, we attempted to deploy Stable Diffusion model locally, yet it took 15 minutes to generate one image, drastically reducing our speed of development.
 
+
 ## Accomplishments that we are proud of 😆
 
 - Outreaching to students from different schools to gain a wider experience-base
@@ -28,13 +31,16 @@ What's more, as we rely on large generative image models to provides essential f
 - Brainstorming and successfully integrating DALL-E, Stable Diffusion, and CLIP all into a single immersive VR experience
 - Building an engaging virtual environment that fosters greater creativity and enhances artistic skill development
 
+
 ## What we learned 📙
 
 We learned the importance of teamwork, communication, and time management in creating a successful VR project. We found it essential to correctly spread out their roles, crucial to help each other out, and even more vital to work together towards the same goal. Through challenging themselves during this hackathon, they have gained valuable experience in integrating various AI technologies, building immersive and seamless VR experiences, and, more than anything, learned why teamwork makes the dream work.
 
+
 ## What's next for "The Pen is Mighter than the Sword" 📈
 
 We plan to add more features to "The Pen is Mightier," such as customizable time limits, difficulty levels, custom prompts/image categories, and more game modes. They also aim to potentially transform the art creation process from 2-dimensional to 3-dimensional, adding a whole new level of complexity to the project.
+
 
 ## Built with
 
@@ -49,12 +55,16 @@ We plan to add more features to "The Pen is Mightier," such as customizable time
 - Unity
 
 ## Team
-[Darius Huang](https://www.linkedin.com/in/dariushuang/)
-[Emmanuel Corona](https://www.linkedin.com/in/emmanuel-angel-corona-moreno/)
-[Peter Cao](https://www.linkedin.com/in/ye-peter-cao-98870920b/)
-[Steven Le](https://www.linkedin.com/in/stevenle1337/)
-[Vencent Vang](https://www.linkedin.com/in/vencent-vang-839792254/)
+
+- [Darius Huang](https://www.linkedin.com/in/dariushuang/)
+- [Emmanuel Corona](https://www.linkedin.com/in/emmanuel-angel-corona-moreno/)
+- [Peter Cao](https://www.linkedin.com/in/ye-peter-cao-98870920b/)
+- [Steven Le](https://www.linkedin.com/in/stevenle1337/)
+- [Vencent Vang](https://www.linkedin.com/in/vencent-vang-839792254/)
 
 ## Links
-[GitHub Repo](https://github.com/yourusername/your-repo-name)
-[Devpost](https://devpost.com/software/the-pen-is-mighter-than-the-sword)
+
+- [GitHub Repo](https://github.com/yourusername/your-repo-name)
+- [Devpost](https://devpost.com/software/the-pen-is-mighter-than-the-sword)
+- [YouTube Trailer](https://youtu.be/D622-WeCsV0)
+- [YouTube Demo](https://www.youtube.com/watch?v=dy6Ou3FIXHQ)
