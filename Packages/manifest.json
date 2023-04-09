@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "com.unity.feature.cinematic": "1.0.0",
+    "com.srcnalt.openai-unity": "https://github.com/srcnalt/OpenAI-Unity.git",
     "com.unity.ide.rider": "3.0.18",
     "com.unity.ide.visualstudio": "2.0.17",
     "com.unity.ide.vscode": "1.2.5",
