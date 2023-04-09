@@ -10500,7 +10500,6 @@ GameObject:
   - component: {fileID: 5056928104757423069}
   - component: {fileID: 341134138284935365}
   - component: {fileID: 6175676894439698306}
-  - component: {fileID: 1105405923553967195}
   m_Layer: 0
   m_Name: Multiplayer XR Rig
   m_TagString: Untagged
@@ -10569,16 +10568,3 @@ MonoBehaviour:
   ScaleThreshold: 0.01
   InLocalSpace: 0
   Interpolate: 1
---- !u!114 &1105405923553967195
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9159826073870795488}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cdb44f1751c799a4b9d35b02ef477302, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  placementArea: {x: -10, y: 10}
