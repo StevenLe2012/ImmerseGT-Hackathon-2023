@@ -58,6 +58,7 @@ We plan to add more features to "The Pen is Mightier," such as customizable time
 
 - [Darius Huang](https://www.linkedin.com/in/dariushuang/)
 - [Emmanuel Corona](https://www.linkedin.com/in/emmanuel-angel-corona-moreno/)
+- [Felicity Huang](https://www.linkedin.com/in/huangfe/)
 - [Peter Cao](https://www.linkedin.com/in/ye-peter-cao-98870920b/)
 - [Steven Le](https://www.linkedin.com/in/stevenle1337/)
 - [Vencent Vang](https://www.linkedin.com/in/vencent-vang-839792254/)
