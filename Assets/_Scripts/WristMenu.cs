@@ -11,16 +11,19 @@ public class WristMenu : MonoBehaviour
 
     public void SendAdd()
     {
+        return;
         textArea.text = "Pressed Add";
     }
     
     public void SendReset()
     {
+        return;
         textArea.text = "Pressed Reset";
     }
     
     public void SendDiffusion()
     {
+        return;
         textArea.text = "Pressed Stable Diffusion";
     }
 }
