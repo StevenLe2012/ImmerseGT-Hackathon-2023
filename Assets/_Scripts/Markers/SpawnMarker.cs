@@ -27,8 +27,9 @@ public class SpawnMarker : MonoBehaviour
     [SerializeField] private GameObject redMarkerPrefab;
     [SerializeField] private GameObject greenMarkerPrefab;
     [SerializeField] private GameObject blueMarkerPrefab;
+    [SerializeField] private GameObject eraserPrefab;
 
-    private GameObject _currentMarker;
+    [SerializeField] private GameObject _currentMarker;
 
     private void Awake()
     {
@@ -42,10 +43,30 @@ public class SpawnMarker : MonoBehaviour
     
     
     
-    public void ReplaceMarker()
+    public void ReplaceMarker(int markerNumber)
     {
-        var markerType = MarkerType.Blue;
-        var currentMarkerPosition = transform.position;
+        if (markerNumber > 5) return;
+        MarkerType markerType = MarkerType.Black;
+        switch (markerNumber)
+        {
+            case 1:
+                markerType = MarkerType.Black;
+                break;
+            case 2:
+                markerType = MarkerType.Red;
+                break;
+            case 3:
+                markerType = MarkerType.Green;
+                break;
+            case 4:
+                markerType = MarkerType.Blue;
+                break;
+            case 5:
+                markerType = MarkerType.Eraser;
+                break; 
+        }
+        
+        var currentMarkerPosition = _currentMarker.transform.position;
         if (_currentMarker != null) Destroy(_currentMarker);
         switch (markerType)
         {
@@ -60,6 +81,9 @@ public class SpawnMarker : MonoBehaviour
                 break;
             case MarkerType.Blue:
                 _currentMarker = Instantiate(blueMarkerPrefab, currentMarkerPosition, Quaternion.identity);
+                break;
+            case MarkerType.Eraser:
+                _currentMarker = Instantiate(eraserPrefab, currentMarkerPosition, Quaternion.identity);
                 break;
             default:
                 throw new ArgumentOutOfRangeException(nameof(markerType), markerType, null);
