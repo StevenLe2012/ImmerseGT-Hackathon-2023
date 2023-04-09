@@ -10499,7 +10499,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5056928104757423069}
   - component: {fileID: 341134138284935365}
-  - component: {fileID: 2935268337854527648}
   - component: {fileID: 5146083429592194893}
   m_Layer: 0
   m_Name: Multiplayer XR Rig
@@ -10543,19 +10542,6 @@ MonoBehaviour:
   AlwaysReplicateAsRoot: 0
   DontDestroyWithOwner: 0
   AutoObjectParentSync: 1
---- !u!114 &2935268337854527648
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9159826073870795488}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cdb44f1751c799a4b9d35b02ef477302, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  placementArea: {x: -10, y: 10}
 --- !u!114 &5146083429592194893
 MonoBehaviour:
   m_ObjectHideFlags: 0
