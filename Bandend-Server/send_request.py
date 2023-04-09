@@ -20,36 +20,36 @@
 
 ##################### Template: Stable diffusion image perfection request ###########################
 
-import requests
-import json
-import base64
+# import requests
+# import json
+# import base64
 
-url = 'http://127.0.0.1:5000/api_call'
-image_path = '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/user_raw_imgs/user1_raw_duck.jpg'
-image_name = 'user1_raw_duck.jpg'
+# url = 'http://127.0.0.1:5000/api_call'
+# image_path = '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/user_raw_imgs/user1_raw_duck.jpg'
+# image_name = 'user1_raw_duck.jpg'
 
-# Read and base64 encode the image
-with open(image_path, 'rb') as image_file:
-    encoded_image = base64.b64encode(image_file.read()).decode('utf-8')
+# # Read and base64 encode the image
+# with open(image_path, 'rb') as image_file:
+#     encoded_image = base64.b64encode(image_file.read()).decode('utf-8')
 
-# Set the request data
-data = {
-    'request_type': 'stable diffusion generate image given image and text prompt',
-    'text_prompt': "side profile, whole body, color the duck, simplified style, plain white background, anthro, very cute kid's film character, disney pixar zootopia character concept artwork, 3d concept, detailed fur, high detail iconic character for upcoming film, trending on artstation, character design, 3d artistic render, highly detailed, octane, blender, cartoon, shadows, lighting",
-    'image_name': image_name,
-    'encoded_image': encoded_image,
-}
+# # Set the request data
+# data = {
+#     'request_type': 'stable diffusion generate image given image and text prompt',
+#     'text_prompt': "side profile, whole body, color the duck, simplified style, plain white background, anthro, very cute kid's film character, disney pixar zootopia character concept artwork, 3d concept, detailed fur, high detail iconic character for upcoming film, trending on artstation, character design, 3d artistic render, highly detailed, octane, blender, cartoon, shadows, lighting",
+#     'image_name': image_name,
+#     'encoded_image': encoded_image,
+# }
 
-headers = {'Content-Type': 'application/json'}
+# headers = {'Content-Type': 'application/json'}
 
-print("sending to server")
+# print("sending to server")
 
-response = requests.post(url, data=json.dumps(data), headers=headers)
+# response = requests.post(url, data=json.dumps(data), headers=headers)
 
-if response.status_code == 200:
-    print("Request sent successfully:", response.json())
-else:
-    print("Request failed:", response.status_code, response.text)
+# if response.status_code == 200:
+#     print("Request sent successfully:", response.json())
+# else:
+#     print("Request failed:", response.status_code, response.text)
 
 
 
@@ -84,4 +84,43 @@ else:
 #     print("Request sent successfully:", response.json())
 # else:
 #     print("Request failed:", response.status_code, response.text)
+
+import requests
+import json
+import base64
+
+url = 'http://127.0.0.1:5000/api_call'
+dalle_image_path = '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/user_raw_imgs/user1_raw_duck.jpg'
+dalle_image_name = 'user1_raw_duck.jpg'
+
+user_image_path = '/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/user_raw_imgs/user2_raw_duck.png'
+user_image_name = 'user2_raw_duck.jpg'
+
+# Read and base64 encode the images
+with open(dalle_image_path, 'rb') as dalle_image_file:
+    encoded_dalle_image = base64.b64encode(dalle_image_file.read()).decode('utf-8')
+
+with open(user_image_path, 'rb') as user_image_file:
+    encoded_user_image = base64.b64encode(user_image_file.read()).decode('utf-8')
+
+# Set the request data
+data = {
+    'request_type': 'clip compares similarity between dall-e image and user image',
+    'dalle_image_name': dalle_image_name,
+    'encoded_dalle_image': encoded_dalle_image,
+    'user_image_name': user_image_name,
+    'encoded_user_image': encoded_user_image,
+}
+
+headers = {'Content-Type': 'application/json'}
+
+print("sending to server")
+
+response = requests.post(url, data=json.dumps(data), headers=headers)
+
+if response.status_code == 200:
+    print("Request sent successfully:", response.json())
+else:
+    print("Request failed:", response.status_code, response.text)
+
 

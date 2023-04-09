@@ -106,23 +106,39 @@ def api_call():
         logging.info(f"request type: clip judges results")
 
         # extract dall-e image
-                    # Access the two images sent by the client
-        dalle_image = request.files.get('dalle_image')
-        
         # extract user's image
-        user_image = request.files.get('user_image')
+
+        dalle_image_name = input_data['dalle_image_name']
+        encoded_dalle_image = input_data['encoded_dalle_image']
+        user_image_name = input_data['user_image_name']
+        encoded_user_image = input_data['encoded_user_image']
+
+        # Decode the base64 encoded images
+        dalle_image_data = base64.b64decode(encoded_dalle_image)
+        user_image_data = base64.b64decode(encoded_user_image)
+
+        # Convert bytes to PIL Image objects
+        dalle_image = Image.open(BytesIO(dalle_image_data))
+        user_image = Image.open(BytesIO(user_image_data))
+
+        # Convert user_image to RGB mode if it's in RGBA mode
+        if user_image.mode == 'RGBA':
+            user_image = user_image.convert('RGB')
+
+        # Save the images
+        user_image.save(f"/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/temp/{user_image_name}")
 
 
         # Save the images to the desired folder
-        dalle_image.save(f"/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/temp/{dalle_image.filename}")
-        user_image.save(f"/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/temp/{user_image.filename}")
+        dalle_image.save(f"/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/temp/{dalle_image_name}")
+        user_image.save(f"/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/temp/{user_image_name}")
 
         # use clip for cosine distance
         # dalle_image = Image.open(BytesIO(dalle_image)).convert("RGB")
         # user_image = Image.open(BytesIO(user_image)).convert("RGB")
 
-        similar_score = image_similarity(f"/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/temp/{dalle_image.filename}",
-                         f"/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/temp/{user_image.filename}")
+        similar_score = image_similarity(f"/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/temp/{dalle_image_name}",
+                         f"/Users/yecao/Desktop/imgt/ImmerseGT-Hackathon-2023/Bandend-Server/temp/{user_image_name}")
     
         print(f"the similarity score is {similar_score}")
 
