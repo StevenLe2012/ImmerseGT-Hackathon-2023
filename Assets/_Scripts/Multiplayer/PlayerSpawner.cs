@@ -14,7 +14,8 @@ public class PlayerSpawner : NetworkBehaviour
 
         foreach (var client in HostManager.Instance.ClientData)
         {
-            var spawnPos = new Vector3(Random.Range(-3f, 3f), 0f, Random.Range(-3f, 3f));
+            // var spawnPos = new Vector3(Random.Range(-3f, 3f), 0f, Random.Range(-3f, 3f));
+            var spawnPos = transform.position;
                 var characterInstance = Instantiate(PlayerPrefab, spawnPos, Quaternion.identity);
                 characterInstance.SpawnAsPlayerObject(client.Value.clientId);
         }
