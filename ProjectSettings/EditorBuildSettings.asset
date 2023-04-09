@@ -11,9 +11,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 808163266c8f73d489a834b897e8456a
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/UI_Hands_Daiurs.unity
-    guid: fcaab79ce09d2a24faf3554cc39c25f6
+    path: Assets/Scenes/UI_Networking.unity
+    guid: df8ba0479aeea1c43bde2a450c5a3420
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer Example/CharacterSelect/LevelSelect.unity
+    guid: b7544d5a30d9eed449267cef7699537b
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer Example/Gameplay.unity
+    guid: fd944f928e3cdc84686a7562695b5c1d
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e7b6cf70c80d6634799bd6c8ea8a47ff,
       type: 2}
