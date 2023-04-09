@@ -15,11 +15,12 @@ public class BrushScaling : MonoBehaviour
     public void DetectBrush()
     {
         brushProvider = GameObject.FindGameObjectWithTag("Marker");
-        textArea.text = "Detected " + brushProvider.name + " and brushLocalScale = " + brushProvider.transform.localScale;
+        // textArea.text = "Detected " + brushProvider.name + " and brushLocalScale = " + brushProvider.transform.localScale;
     }
 
     void Update()
     {
+        if (!brushProvider) { return; }
         scaleSliderValue = scaleSlider.value;
         Vector3 scale = brushProvider.transform.localScale;
         scale.Set(scaleSliderValue, scaleSliderValue, scaleSliderValue);
