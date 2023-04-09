@@ -123,28 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &97404963 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3321647243485364488, guid: 1dbe82d66f1c84540bee7fcf2734707f,
-    type: 3}
-  m_PrefabInstance: {fileID: 7963699676057046033}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &97404967
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 97404963}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 501379478
-  AlwaysReplicateAsRoot: 0
-  DontDestroyWithOwner: 0
-  AutoObjectParentSync: 1
 --- !u!1001 &198491114
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -236,28 +214,6 @@ PrefabInstance:
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3062ecfb0bd4bf4da5e175e5a3e2e8f, type: 3}
---- !u!1 &295241685 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8509360108668293414, guid: 1dbe82d66f1c84540bee7fcf2734707f,
-    type: 3}
-  m_PrefabInstance: {fileID: 7963699676057046033}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &295241689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 295241685}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 1994368689
-  AlwaysReplicateAsRoot: 0
-  DontDestroyWithOwner: 0
-  AutoObjectParentSync: 1
 --- !u!20 &897272747 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 7963699675301496762, guid: 1dbe82d66f1c84540bee7fcf2734707f,
@@ -770,28 +726,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3095c467196267c439482a0fe846ba02, type: 3}
---- !u!1 &1715045697 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8334319911646922181, guid: 1dbe82d66f1c84540bee7fcf2734707f,
-    type: 3}
-  m_PrefabInstance: {fileID: 7963699676057046033}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1715045701
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1715045697}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 2330041613
-  AlwaysReplicateAsRoot: 0
-  DontDestroyWithOwner: 0
-  AutoObjectParentSync: 1
 --- !u!1001 &2115600437
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -799,6 +733,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 879499277, guid: fb4c12f82b356ac4784c451366cdd2b0, type: 3}
+      propertyPath: gameplaySceneName
+      value: Environment_Free
+      objectReference: {fileID: 0}
     - target: {fileID: 879499277, guid: fb4c12f82b356ac4784c451366cdd2b0, type: 3}
       propertyPath: characterSelectSceneName
       value: LevelSelect
