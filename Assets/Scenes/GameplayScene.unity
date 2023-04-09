@@ -556,6 +556,7 @@ GameObject:
   - component: {fileID: 239222402}
   - component: {fileID: 239222401}
   - component: {fileID: 239222400}
+  - component: {fileID: 239222404}
   m_Layer: 0
   m_Name: DALLECanvas (2)
   m_TagString: Untagged
@@ -597,7 +598,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7a9af83c9cf06134cb4e51426cd59ede, type: 2}
+  - {fileID: 2100000, guid: dbcda1916e7bf6a47a3ef1f5f6b781cd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -642,6 +643,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 181.06}
+--- !u!114 &239222404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239222399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38eda041e202c2948bc244b6c0e016a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debugCube: {fileID: 0}
+  pressed:
+    m_UseReference: 0
+    m_Action:
+      m_Name: 
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
 --- !u!1 &242591862
 GameObject:
   m_ObjectHideFlags: 0
@@ -840,6 +866,7 @@ GameObject:
   - component: {fileID: 428824949}
   - component: {fileID: 428824948}
   - component: {fileID: 428824947}
+  - component: {fileID: 428824951}
   m_Layer: 0
   m_Name: DALLECanvas (1)
   m_TagString: Untagged
@@ -881,7 +908,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5ac5ca787d2b7494d9f108bf043b8651, type: 2}
+  - {fileID: 2100000, guid: dbcda1916e7bf6a47a3ef1f5f6b781cd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -919,13 +946,38 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 428824946}
   m_LocalRotation: {x: 0.00015220535, y: -0.7071068, z: 0.7071068, w: 0.00015220535}
-  m_LocalPosition: {x: 52.625, y: 5.7, z: 58.512}
+  m_LocalPosition: {x: 52.625, y: 5.7, z: 58.492}
   m_LocalScale: {x: 0.17, y: 0.17, z: 0.17}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 179.975}
+--- !u!114 &428824951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428824946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38eda041e202c2948bc244b6c0e016a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debugCube: {fileID: 0}
+  pressed:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Pressed
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 27d48fce-a6e8-4ac1-9a6d-744c29d42b3e
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
 --- !u!1 &496346995
 GameObject:
   m_ObjectHideFlags: 0
@@ -3764,6 +3816,7 @@ GameObject:
   - component: {fileID: 2125114803}
   - component: {fileID: 2125114802}
   - component: {fileID: 2125114801}
+  - component: {fileID: 2125114805}
   m_Layer: 0
   m_Name: DALLECanvas
   m_TagString: Untagged
@@ -3805,7 +3858,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5ac5ca787d2b7494d9f108bf043b8651, type: 2}
+  - {fileID: 2100000, guid: dbcda1916e7bf6a47a3ef1f5f6b781cd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3850,6 +3903,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 91.824}
+--- !u!114 &2125114805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125114800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38eda041e202c2948bc244b6c0e016a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debugCube: {fileID: 0}
+  pressed:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Pressed
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 26ea7cd8-c899-4d5a-80af-28a449512f4d
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
 --- !u!1 &2129354786
 GameObject:
   m_ObjectHideFlags: 0
