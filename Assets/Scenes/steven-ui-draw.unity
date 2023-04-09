@@ -3342,7 +3342,7 @@ PrefabInstance:
     - target: {fileID: 6809564536128843367, guid: dbc9ad896078f7741b4864d8f1c353fb,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.118
+      value: 0.234
       objectReference: {fileID: 0}
     - target: {fileID: 6809564536128843367, guid: dbc9ad896078f7741b4864d8f1c353fb,
         type: 3}
@@ -4053,6 +4053,6 @@ MonoBehaviour:
     type: 3}
   blueMarkerPrefab: {fileID: 3526192380226181947, guid: 9eae3476156bd76429d6b2f6c37c7567,
     type: 3}
-  eraserPrefab: {fileID: 5365107251492553079, guid: 01c9424a27ee7db4ca7ea346d50cb57c,
+  eraserPrefab: {fileID: 5734360755034706344, guid: 033d76a146bc78f4e99a719c63f765d0,
     type: 3}
   _currentMarker: {fileID: 1732724597}
