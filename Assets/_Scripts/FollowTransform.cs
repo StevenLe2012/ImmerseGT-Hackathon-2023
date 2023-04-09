@@ -18,6 +18,8 @@ public class FollowTransform : MonoBehaviour
     
     void Update()
     {
+        if (!transform) return;
+        
         _thisTransform.LookAt(lookAt, Vector3.up);
         _thisTransform.Rotate(0f, 180f, 0f);
         var newPosition = _thisTransform.position;
