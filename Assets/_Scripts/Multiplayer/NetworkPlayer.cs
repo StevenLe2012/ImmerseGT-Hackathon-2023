@@ -22,12 +22,12 @@ public class NetworkPlayer : NetworkBehaviour
         if (IsClient && !IsOwner)
         {
             var clientHandVisualizer = GetComponentInChildren<HandVisualizer>();
-            var clientHead = GetComponentInChildren<TrackedPoseDriver>();
+            // var clientHead = GetComponentInChildren<TrackedPoseDriver>();
             var clientCamera = GetComponentInChildren<Camera>();
 
             clientCamera.enabled = false;
             clientHandVisualizer.enabled = false;
-            clientHead.enabled = false;
+            // clientHead.enabled = false;
         }
     }
 
