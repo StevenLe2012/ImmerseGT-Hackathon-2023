@@ -2,7 +2,7 @@
 
 ## Project philosophy 🧐
 
-"The Pen is Mighter than the Sword" is a two-player Virtual Reality video game that merges artistic fun, competitive madness, and fitness benefits in an immersive, high-paced environment. The game integrates advanced AI technologies (DALL-E, Stable-Diffusion, Clip) and VR hand-tracking to make the art creation process easier, and it fosters group-bonding by bringing people closer together through shared artistic experiences.
+"The Pen is Mighter than the Sword" (shortened to "Pen is Mightier") is a two-player Virtual Reality video game that merges artistic fun, competitive madness, and fitness benefits in an immersive, high-paced environment. The game integrates advanced AI technologies (DALL-E, Stable-Diffusion, Clip) and VR hand-tracking to make the art creation process easier, and it fosters group-bonding by bringing people closer together through shared artistic experiences.
 
 
 ## How it works 💭
