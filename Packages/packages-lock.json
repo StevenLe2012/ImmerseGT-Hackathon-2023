@@ -6,6 +6,7 @@
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
+    },
     "com.srcnalt.openai-unity": {
       "version": "https://github.com/srcnalt/OpenAI-Unity.git",
       "depth": 0,
